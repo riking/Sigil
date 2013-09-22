@@ -11,6 +11,18 @@ build setup will try to use system installed versions of any bundled
 dependencies and fall back to the bundled copies. This is provided for
 connivence for Linux packagers but it is not supported.
 
+## Table of Contents
+
+> 1. [Introduction](#introduction)
+> 2. [Table of Contents](#table-of-contents)
+> 3. [General notes](#general-notes)
+> 4. [Compiling on Windows](#compiling-on-windows)  
+> 4.1. [Method 1 (nmake)](#method-1-nmake)  
+> 4.2. [Method 2 (Visual Studio)](#method-2-visual-studio)
+> 5. [Compiling on OS X](#compiling-on-os-x)  
+> 5.1. [Method 1 (make)](#method-1-make)  
+> 5.2. [Method 2 (XCode)](#method-2-xcode)
+> 6. [Compiling on Linux](#compiling-on-linux)
 
 # General notes
 
@@ -147,7 +159,7 @@ export LD_LIBRARY_PATH=/opt/Qt5.1.0/5.1.0/gcc/lib
 chmod +x ~/sigil.sh
 ```
 
-# Run Sigil:
+Run Sigil:
 ```
 ~/sigil.sh
 ```
